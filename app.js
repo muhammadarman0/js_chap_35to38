@@ -49,7 +49,7 @@
 // function getResult(){
 //     var result = document.getElementById("value");
 //     result.value = eval(result.value);
-// } 
+// }
 
 // Question no 4
 
@@ -93,3 +93,82 @@
 // }
 
 // console.log(factorail(8));
+
+// Question no 7
+
+// function counting(){
+//     let start = +prompt("Enter starting number");
+//     let end = +prompt("Enter a Ending number");
+//     for (let i = start ; i <= end;i++){
+//         document.writeln(i);
+
+//     }
+
+// }
+// counting()
+
+// Question no 9
+
+// function area(width, height) {
+//     return width * height
+// }
+
+// let val = area(5,6);
+// console.log(val);
+
+// Question no 10
+
+// function palindrome() {
+//     let str = +prompt("Enter a palindrome word");
+//     let em = " "
+//     for (let i = str.length - 1; i >= 0; i--) {
+//         // console.log(str[i]);
+//         em += str[i]
+//     }
+//     if (str == em) {
+//         console.log(`${str} This is  a palindrome word`);
+//     }
+// }
+// let val = palindrome()
+// console.log(val);
+// Question no 11
+
+// function titleCase() {
+//     let str = "the quick brown fox";
+//     let words = str.split(" ");
+//     for (let i = 0; i < words.length; i++) {
+//         words[i] = words[i].charAt(0).toUpperCase() + words[i].slice(1)
+//     }
+//     return words.toString().replaceAll(","," ")
+// }
+
+// let val = titleCase();
+// console.log(val);
+
+// Question no 12
+
+// function longestWord(){
+//     let str = "Web Development Tutorial";
+//     console.log("Example String: ",str);
+//     let words = str.split(" ");
+//     console.log("Example OutPut: ",words[1]);
+// }
+// longestWord()
+
+
+// Question no 13
+
+// function charCount(){
+//     let str = "JSResourceS.com";
+//     let char ="o";
+//     let count = 0 ;
+//     for(let i =0 ; i < str.length;i++){
+//         if(str.charAt(i) === char){
+//             count++
+//             console.log(`The character found in ${char} at index ${i}`);
+//         }
+//     }
+//     console.log(`The total time is ${count} character ${char} found in`);
+// }
+// charCount()
+
