@@ -60,26 +60,3 @@
     height: 40px;
     border-radius: 50px;
 } */
-.counting>h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 20px;
-    font-size: 28px;
-}
-
-.start_input {
-    padding: 20px;
-
-}
-
-.start_input>input {
-    height: 30px;
-    width: 15%;
-}
-.btn_count{
-    background: none;
-    border: 1px solid gray;
-    height: 35px;
-    font-weight: bold;
-    font-style: italic;
-    cursor: pointer;
-}
